@@ -8,5 +8,18 @@ namespace ATM
 {
     class Bank
     {
+        public int Balance = 10000;
+
+        public bool Compare(int amount)
+        {
+            if (Balance >= amount)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

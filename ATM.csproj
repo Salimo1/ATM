@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="IBalance.cs" />
     <Compile Include="Transaction.cs" />
     <Page Include="ATMView.xaml">
       <SubType>Designer</SubType>

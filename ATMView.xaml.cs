@@ -24,13 +24,19 @@ namespace ATM
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Withdraw_Click(object sender, RoutedEventArgs e)
         {
+            Account a1 = new Account(int.Parse(money.Text));
+            string message = a1.Withdraw(a1);
+            MessageBox.Show(message);
 
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Deposit_Click(object sender, RoutedEventArgs e)
         {
+            Account a2 = new Account(int.Parse(money.Text));
+            string message = a2.InsertMoney(a2);
+            MessageBox.Show(message);
 
         }
     }
