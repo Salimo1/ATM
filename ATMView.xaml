@@ -10,6 +10,12 @@
         <Grid.Background>
             <ImageBrush ImageSource="images/lead_720_405.jpg"/>
         </Grid.Background>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="28,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" FontSize="14px"/>
+        <Label Content="Credit Card: ####" HorizontalAlignment="Left" Margin="640,26,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label Content="Amount" HorizontalAlignment="Left" Margin="28,106,0,0" VerticalAlignment="Top" Width="112"/>
+        <Button Content="Withdraw" HorizontalAlignment="Left" Margin="28,193,0,0" VerticalAlignment="Top" Width="112" Height="36"/>
+        <Button Content="Deposit" HorizontalAlignment="Left" Margin="166,193,0,0" VerticalAlignment="Top" Width="112" Height="36"/>
+        <Label Content="Bank Name" HorizontalAlignment="Left" Margin="0,25,0,0" VerticalAlignment="Top" Height="42" Width="149" FontSize="20px"/>
 
     </Grid>
 </Window>
