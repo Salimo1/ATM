@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="ATMView" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="images/lead_720_405.jpg"/>
+        </Grid.Background>
+
     </Grid>
 </Window>
