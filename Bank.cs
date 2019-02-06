@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATM
 {
-    class Bank
+    class Bank : IBalance
     {
         public int Balance = 10000;
 

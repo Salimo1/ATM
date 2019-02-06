@@ -8,5 +8,8 @@ namespace ATM
 {
     interface IBalance
     {
+
+        
+
     }
 }
